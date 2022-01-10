@@ -8,6 +8,7 @@ let clearNow = false;
 
 function App() {
   const [result, setResult] = useState("");
+
   ///////////////////////Calculator logic/////////////////////////////////////////////
   /////////////////////////////////////////////////////////////////////////////////
   const handleClick = (button) => {
@@ -67,12 +68,13 @@ function App() {
       : setResult("-".concat(result));
     // setResult(result.unshift("-")
   };
+  const unselessFunction = () => {};
   ///////////////////////////////////////////////////////////////////////////////////
   return (
     <div className="App" tabIndex="0">
       <div className="inputContainer">
         <form>
-          <input type="text" value={result} />
+          <input type="text" onChange={unselessFunction} value={result} />
         </form>
       </div>
       <Buttons onButtonClick={handleClick} onKeyPress={handleClick}></Buttons>
