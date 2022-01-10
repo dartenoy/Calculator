@@ -1,0 +1,25 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+
+input {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+button {
+  font-family: "Boogaloo", cursive;
+  font-size: xx-large;
+}
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #bcaaa4;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
